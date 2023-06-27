@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-r">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+       :root{
+        --font1: 'Roboto Mono', monospace;
+        --font2: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       }
+        *{
+            margin: 0;
+        }
+        header{
+            background-color: black;
+            width: 100%;
+            margin: 0 0 80px 0;
+        }
+        body{
+            font-family: var(--font1);
+        }
+        header > h1{
+            text-align: center;
+            color: #fff;
+            margin: 0;
+            padding: 50px 0 10px 0;
+            font-size: 8vw;
+            font-family: var(--font2);
+            font-variant: small-caps;
+        }
+        header > h2{
+            margin: 0;
+            text-align: center;
+            color: #fff;
+            font-size: 1.25em;
+            padding: 0 0 50px 0;
+        }
+        p{
+            padding: 20px 0 20px 25px;
+            font-size: 3.5vw;
+            line-height: 7vw;
+            font-weight: bold;
+            font-style: italic;
+        }
+        a{
+            text-decoration: none; 
+            color: inherit; 
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        footer{
+            margin: 80px 0 0 0;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            font-size: 12px;
+            padding: 5px;
+        }
+        .paralax{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            position: relative;
+            color: #fff;
+            padding: 50px 0 50px 0;
+            margin: 80px 0 80px 0;
+        }
+        section > p{
+            background-color: #000000ad;
+            display: inline-block;
+            margin: 20px;
+            padding: 10px;    
+        }
+        #para01{
+            background-image: url(https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?cs=srgb&dl=pexels-christian-heitz-842711.jpg&fm=jpg);
+            background-position: right center;
+        }
+        #para02{
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/517/257/226/the-sky-trees-landscape-nature-wallpaper-preview.jpg);
+            background-position: left center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cordel Moderno</h1>
+        <h2>Por <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank">Milton Duarte</a></h2>
+    </header>
+    <main>
+        <p>
+            Estou ficando cansado <br>Da tal tecnologia <br>Só se fala por e-mail <br>Mensagem curta e fria <br>Twitter e Facebook <br>Antes que eu caduque <br>Vou dizer tudo em poesia. 
+        </p>
+        <section class="paralax" id="para01">
+                    <p>
+                        Não é mais como era antes <br>É tudo abreviado <br>"Você" só tem duas letras <br>O "O" e o "E" foi riscado <br>Para declarar o amor <br>Basta botar uma flor <br>E um coração desenhado.
+                    </p>
+                </section>
+        <p>
+            Arroba agora não pesa <br>É parte de um endereço <br>Ponto final nem se usa <br>Ou vai até no começo <br>Agora é .com <br>Se o saite é muito bom <br>Ele vale um alto preço.
+        </p>
+        <p>
+            Pra piorar a liguagem <br>O emoticom é um risco <br>Tem símbolo para tudo <br>Ponto e vírgula e um asterisco <br>Um beijo significa <br>Pra entender como fica <br>Decifre esse rabisco.
+        </p>
+        <section  class="paralax" id="para02">
+            <p>
+                Tenho saudade das cartas <br>Escritas com a própria mão <br>Mandava no mês de Junho <br>Só chegava no Verão <br>Mas matava a saudade <br>Era texto de verdade <br>Nas linhas do coração.
+            </p>
+        </section>
+        <p>
+            Agora, escrevo e envio <br>Chegando na mesma hora <br>Mas quando vou prosear <br>A pessoa foi embora <br>Abriu outro aplicativo <br>O mundo ficou cativo <br>Da tecnologia do agora.
+        </p>
+        <p>
+            Felizmente, pra orar <br>Não precisa de internet <br>Deus escuta todo mundo <br>Se quiser, faça esse teste <br>Dois pontos são dois joelhos <br>Seus lábios são aparelhos <br>Deixe que Deus interprete.
+        </p>
+    </main>
+    <footer>
+        <h2>Site criado por <a href="https://gustavoguanabara.github.io/" target="_blank">Gustavo Guanabara</a> para o <a href="https://www.cursoemvideo.com/" target="_blank">Cursoemvideo</a></h2>
+    </footer>
+</body>
+</html>
